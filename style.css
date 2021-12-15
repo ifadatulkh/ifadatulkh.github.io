@@ -4,40 +4,6 @@
 	font-family: century gothic;
 }
 
-header {
-
-}
-
-ul {
-	overflow: hidden;
-	list-style-type: none;
-	margin-top: 20px;
-}
-
-ul li a {
-	float: right;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 5px 20px;
-	text-decoration: none;
-}
-
-ul li a:hover {
-	background-color: white;
-	color:black;
-}
-
-ul li.active a {
-	background-color: white;
-	color: black;
-}
-
-.main {
-	max-width: 1200px;
-	margin: auto;
-}
-
 .title {
 	position: absolute;
 	top: 50%;
@@ -51,12 +17,12 @@ ul li.active a {
 }
 
 .title h2{
-	color: #00ffff;
+	color: #000;
 	font-size: 20px;
 }
 
 .title h3{
-	color: #00ffff;
+	color: #000;
 	font-size: 14px;
 }
 
