@@ -46,7 +46,7 @@ form{
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 .4rem;
-    color: #00A19D;
+    text-decoration-color: #00A19D;
 }
 .input-field i{
     text-align: center;
