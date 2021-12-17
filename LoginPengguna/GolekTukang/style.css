@@ -1,6 +1,15 @@
 *{
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,input{
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
 }
