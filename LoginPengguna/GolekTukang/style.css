@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body,input{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter';
 }
 .container{
     position: relative;
@@ -24,4 +24,14 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.title-2{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 5px;
 }
