@@ -86,6 +86,10 @@ form{
     padding: .7rem 0;
     font-size: 1rem;
 }
+.social-media{
+    display: flex;
+    justify-content: center;
+}
 .social-icon{
     height: 46px;
     width: 46px;
@@ -95,7 +99,7 @@ form{
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #00A19D ;
+    color: #333 ;
     font-size: 1.1rem;
     border-radius: 50%;
     transition: 0.3s;
