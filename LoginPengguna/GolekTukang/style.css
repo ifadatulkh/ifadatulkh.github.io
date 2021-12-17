@@ -50,12 +50,10 @@ form{
 .input-field i{
     text-align: center;
     line-height: 55px;
-    color: #aaa;
+    color: #00A19D;
     font-size: 1.1rem;
 }
-.input-field i:hover{
-    color: #00A19D;
-}
+
 .input-field input{
     background: none;
     outline: none;
@@ -81,4 +79,7 @@ form{
     font-weight: 600;
     margin: 10px 0;
     transition: .5s;
+}
+.btn:hover{
+    background-color:#06918e ;
 }
