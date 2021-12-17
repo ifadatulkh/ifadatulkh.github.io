@@ -26,12 +26,12 @@ form{
     flex-direction: column;
 }
 .title{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
 }
 .title-2{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -41,12 +41,11 @@ form{
     height: 55px;
     background-color: #f0f0f0;
     margin: 10px 0;
-    border-radius: 55px;
+    border-radius: 15px;
     border-color: #00A19D;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 .4rem;
-    text-decoration-color: #00A19D;
 }
 .input-field i{
     text-align: center;
@@ -61,5 +60,20 @@ form{
     line-height: 1;
     font-weight: 600;
     font-size: 1.1rem;
+    color: #333;
+}
+.input-field input::placeholder{
     color: #00A19D;
+    font-weight: 500;
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background:  linear-gradient(180deg, #2F4858 0%, #00A19D 100%);
+    color: #fff;
+    font-weight: 600;
 }
