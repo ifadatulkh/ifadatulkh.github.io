@@ -104,3 +104,7 @@ form{
     border-radius: 50%;
     transition: 0.3s;
 }
+.social-icon:hover{
+    color:#00A19D ;
+    border-color: #00A19D;
+}
