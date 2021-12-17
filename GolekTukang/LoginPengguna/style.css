@@ -27,13 +27,11 @@ form{
     flex-direction: column;
 }
 .title{
-    align-items: left;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 5px;
 }
 .title-2{
-    align-items: left;
     font-size: 1.1rem;
     font-weight: normal;
     margin-bottom: 10px;
