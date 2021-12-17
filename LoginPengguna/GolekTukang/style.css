@@ -41,8 +41,8 @@ form{
     height: 55px;
     background-color: #f0f0f0;
     margin: 10px 0;
+    border: 1px solid #00A19D;
     border-radius: 15px;
-    border-color: #00A19D;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 .4rem;
@@ -88,5 +88,15 @@ form{
 }
 .social-icon{
     height: 46px;
-    
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #00A19D ;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
 }
