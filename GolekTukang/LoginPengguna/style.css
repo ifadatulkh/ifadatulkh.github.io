@@ -13,6 +13,17 @@ body,input{
     background-color: #fff;
     overflow: hidden;
 }
+.container::before{
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background:  linear-gradient(180deg, #2F4858 0%, #00A19D 100%);
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+}
 .form-container{
     position: absolute;
     width: 100%;
