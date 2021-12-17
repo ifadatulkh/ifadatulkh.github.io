@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body,input{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Inter',sans-serif;
 }
 .container{
     position: relative;
@@ -12,4 +12,16 @@ body,input{
     min-height: 100vh;
     background-color: #fff;
     overflow: hidden;
+}
+.form-container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
