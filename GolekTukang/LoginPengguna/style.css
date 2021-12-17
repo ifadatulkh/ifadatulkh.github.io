@@ -67,7 +67,7 @@ form{
     color: #00A19D;
     font-weight: 500;
 }
-.btn{
+.btn-solid{
     text-align: center;
     width: 150px;
     height: 49px;
@@ -81,7 +81,7 @@ form{
     margin: 10px 0;
     transition: .5s;
 }
-.btn:hover{
+.btn-solid:hover{
     background-color: #037e7c;
 }
 .social-text{
