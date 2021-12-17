@@ -194,6 +194,6 @@ form.sign-up-form{
 .image{
     width: 100%;
 }
-.right-panel.image{
+.right-panel .image{
     transform: translateX(800px);
 }
