@@ -114,3 +114,22 @@ form{
     padding: .7rem 0;
     font-size: 1rem;
 }
+
+.btn-solid {
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background:  linear-gradient(180deg, #2F4858 0%, #00A19D 100%);
+    color: #fff;
+    font-weight: 600;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+	text-decoration: none;
+	transition: 0.6%;
+}
