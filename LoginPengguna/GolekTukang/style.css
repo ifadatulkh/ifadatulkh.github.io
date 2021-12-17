@@ -53,7 +53,6 @@ form{
     color: #00A19D;
     font-size: 1.1rem;
 }
-
 .input-field input{
     background: none;
     outline: none;
@@ -81,5 +80,13 @@ form{
     transition: .5s;
 }
 .btn:hover{
-    background-color:#06918e ;
+    background-color: #037e7c;
+}
+.social-text{
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+.social-icon{
+    height: 46px;
+    
 }
