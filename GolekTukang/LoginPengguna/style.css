@@ -20,6 +20,13 @@ body,input{
     top: 0;
     left: 0;
 }
+.masuk-daftar{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
 form{
     display: flex;
     align-items: center;
