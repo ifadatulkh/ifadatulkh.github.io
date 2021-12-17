@@ -50,8 +50,11 @@ form{
 .input-field i{
     text-align: center;
     line-height: 55px;
-    color: #00A19D;
+    color: #aaa;
     font-size: 1.1rem;
+}
+.input-field i:hover{
+    color: #00A19D;
 }
 .input-field input{
     background: none;
@@ -76,4 +79,6 @@ form{
     background:  linear-gradient(180deg, #2F4858 0%, #00A19D 100%);
     color: #fff;
     font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
 }
