@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,input{
+    font-family: 'Inter';
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+.form-container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    align-items: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.title-2{
+    align-items: left;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.input-field{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border: 1px solid #00A19D;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+.input-field i{
+    text-align: center;
+    line-height: 55px;
+    color: #00A19D;
+    font-size: 1.1rem;
+}
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+.input-field input::placeholder{
+    color: #00A19D;
+    font-weight: 500;
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background:  linear-gradient(180deg, #2F4858 0%, #00A19D 100%);
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: #037e7c;
+}
+.social-text{
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333 ;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.social-icon:hover{
+    color:#00A19D ;
+    border-color: #00A19D;
+}
+.daftar{
+    padding: .7rem 0;
+    font-size: 1rem;
+}
