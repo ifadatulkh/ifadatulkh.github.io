@@ -146,7 +146,7 @@ form.sign-up-form{
     font-size: 1rem;
 }
 
-.btn-solid {
+.btn{
     width: 150px;
     height: 49px;
     border: none;
@@ -158,8 +158,6 @@ form.sign-up-form{
     font-weight: 600;
     margin: 10px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: -0.015em;
 	text-decoration: none;
 	transition: 0.6%;
