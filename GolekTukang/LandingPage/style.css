@@ -251,3 +251,6 @@ ul li a:hover {
     left: 0px;
     top: 224px;
 }
+.img-here {
+    min-width: none;
+}
