@@ -26,10 +26,18 @@
 	font-size: 14px;
 }
 
-.button {
+.button1{
 	position: absolute;
 	top: 65%;
-	left: 50%;
+	left: 40%;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+
+.button2{
+	position: absolute;
+	top: 65%;
+	left: 60%;
 	color: white;
 	transform: translate(-50%, -50%);
 }
